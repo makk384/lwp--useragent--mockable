@@ -1,0 +1,19 @@
+Revision history for LWP-UserAgent-Mockable
+
+0.90    Date/time
+        First version, released on an unsuspecting world.
+
+1.00    2009-04-19
+        No functionality changes
+            - Added dependany on B::Deparse
+            - Update unittests to be quicker
+
+1.01    2009-05-18
+        No functionality changes
+            - Added dependancy on URI to avoid spurious test failures
+
+1.10    2009-05-25
+        - Allowed resetting of the action within a session.  Some error
+        messages changed as a result, but no other API changes.
+        - Get around HTTP/1.0 only proxies failing unittests.
+
